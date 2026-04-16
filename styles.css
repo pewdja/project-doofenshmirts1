@@ -1,6 +1,6 @@
 :root{
 --bg: #0f1114;
---accent: #ff3e3e;
+--accent: #9f6003;
 --card-bg: #1a1d22;
 }
 
@@ -17,12 +17,12 @@ body {
     justify-content: center;
 }
 
-.app { width: 100%;
+.manhwa { width: 100%;
 max-width: 900px;
 padding: 40px 20px; }
 header { text-align: center; 
 margin-bottom: 40px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-family: 'Segoe UI', system-ui, sans-serif;
 ;} 
 h1 span { color: var(--accent); }
 
@@ -65,10 +65,6 @@ overflow: hidden;
 transition: transform 0.2s;
 border: 1px solid #2a2e35;
 position: relative;
-}
-
-.card:hover {
-transform: translateY(-5px);
 }
 
 .card img {
